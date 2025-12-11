@@ -1,0 +1,15 @@
+.rounded-square {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #6f42c1;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px 20px 10px 20px
+}
+.container{
+    display:flex;
+    gap: 20px;
+}
