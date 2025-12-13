@@ -1,0 +1,13 @@
+.header-container {
+  /*display:flex;*/
+  /*text-align: left;*/
+  /*width: 100%;*/
+  align-items: left;
+  /*justify-content: flex-start;*/
+}
+.navbar.nav {
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the left (start of main axis) */
+  align-items: left; /* Vertically centers items along the cross axis */
+  width: 100%;
+}
