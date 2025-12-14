@@ -1,0 +1,21 @@
+.rounded-square {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #6f42c1;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.container{
+    display:flex;
+    /*margin-top: 0;
+    margin-bottom: 0;*/
+    /*justify-content: center;*/
+    width: 100%;
+}
