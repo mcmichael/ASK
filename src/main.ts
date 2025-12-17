@@ -2,7 +2,8 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { App } from './app/app';
 import { Home } from './home/home';
-import { Header } from './app/header/header'; 
+import { Header } from './app/header/header';
+import { Choices } from './app/choices/choices'; 
 
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
