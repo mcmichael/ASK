@@ -1,9 +1,13 @@
-interface program {
+/*Class for applications*/
+export class Application {
   idProgram: number;
-  nomProgram?: string;
+  nameProgram?: string;
   statusProgram: boolean;
-}
 
-// class Application implements program {
-//   //constructor()
-//}
+  constructor(parameterId: number, parameterName: string, parameterStatus: boolean) {
+    this.idProgram = parameterId;
+    this.nameProgram = parameterName;
+    this.statusProgram = parameterStatus;
+  }
+
+}
