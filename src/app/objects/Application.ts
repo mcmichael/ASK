@@ -1,9 +1,13 @@
-interface program {
+class Application {
   idProgram: number;
-  nomProgram?: string;
+  NameProgram?: string;
   statusProgram: boolean;
-}
 
-// class Application implements program {
-//   //constructor()
-//}
+  constructor(idProgram: number, NameProgram: string, statusProgram: boolean) {
+    this.idProgram = idProgram;
+    this.NameProgram = NameProgram;
+    this.statusProgram = statusProgram;
+    }
+
+
+}
