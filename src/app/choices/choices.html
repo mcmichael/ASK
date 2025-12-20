@@ -1,7 +1,7 @@
 <h2>Choices</h2>
 
   @for (Door of DoorChoices; track Door.idDoor) {
-    Door: {{ Door.idDoor }} | Name: {{ Door.nameDoor }}
+    <span class="glass-card"> {{ Door.nameDoor }}</span>
   } @empty {
   <p>No items found.</p>
   }
